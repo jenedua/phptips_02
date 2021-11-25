@@ -1,0 +1,29 @@
+{
+    "name": "jenedua/phptips002",
+    "description": "Abstração de banco de dados com datalayer",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jenedua",
+            "email": "jenasha29@gmail.com",
+            "role": "developer"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "require": {
+        "coffeecode/datalayer": "1.1.2"
+
+    }
+}
